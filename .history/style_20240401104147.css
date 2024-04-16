@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.navBar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  position: relative;
+}
+.navBar img {
+  margin-left: 90px;
+  padding-top: 20px;
+  padding-right: 190px;
+}
+.logoItems ul {
+  display: flex;
+  list-style: none;
+  padding-top: 20px;
+  gap: 70px;
+}
+.logoItems ul li {
+  font-size: 15px;
+}
+.logoItems ul li:hover {
+  transform: scale(1.05);
+  font-weight: 700;
+}
+.shop {
+  position: relative;
+}
+.bx-down-arrow {
+  position: absolute;
+  left: 570px;
+}
+.contact {
+  position: relative;
+}
+.bx-search {
+  position: absolute;
+  right: 300px;
+  top: 37px;
+  font-size: 20px;
+}
+.bx-heart {
+  position: absolute;
+  right: 270px;
+  top: 35px;
+  font-size: 20px;
+}
+.bx-shopping-bag {
+  position: absolute;
+  right: 240px;
+  top: 35px;
+  font-size: 20px;
+}
+.bx-down-arrow {
+  position: absolute;
+  left: 570px;
+  top: 40px;
+}
+.bx-right-arrow-alt {
+  font-size: 15px;
+}
+.landingPage {
+  display: flex;
+  flex-direction: column;
+  background: rgb(242, 243, 241);
+  border-radius: 5 px;
+  height: 620px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  position: relative;
+}
+
+.landingPageText {
+  margin-top: 200px;
+  margin-left: 150px;
+  position: relative;
+}
+.landingPageText h1 {
+  font-size: 42px;
+  font-weight: 900;
+}
+.landingPage h2 {
+  font-size: 85px;
+  position: absolute;
+  top: 500px;
+  left: 30px;
+  color: #e4e2e2;
+}
+.classic {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.landingPageText p {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+button {
+  padding: 12px 28px;
+  background: #000;
+  border: 1px;
+  border-radius: 7px;
+  transition: all 0.42s ease;
+}
+button a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #fff;
+}
+button:hover {
+  color: #000;
+  background: grey;
+}
+.landingPage img {
+  width: 600px;
+  position: absolute;
+  top: 120px;
+  right: 200px;
+  background: transparent;
+  height: 80%;
+}
+.login {
+  padding: 12px 28px;
+  background: #000;
+  border: 1px;
+  border-radius: 7px;
+  margin-left: 800px;
+  position: absolute;
+  top: 25px;
+}
+.login a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #fff;
+}
+.cardstext{
+    font-size: 30px;
+    m
+}

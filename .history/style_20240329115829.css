@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navBar {
+  display: flex;
+}
+.navBar img {
+  margin-left: 90px;
+  padding-top: 20px;
+}
+.logoItems ul {
+  display: flex;
+  text-align: ;
+}

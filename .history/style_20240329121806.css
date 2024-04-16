@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navBar {
+  display: flex;
+  align-items: center;
+}
+.navBar img {
+  margin-left: 90px;
+  padding-top: 20px;
+  padding-right: 190px;
+}
+.logoItems ul {
+  display: flex;
+  list-style: none;
+  gap: 70px;
+}
+.logoItems ul li {
+  font-size: 16px;
+  border: 1px solid red;
+}
+.shop {
+  position: relative;
+}
+.bx-down-arrow {
+  position: absolute;
+  left: 570px;
+}
+.contact {
+  position: relative;
+}
+.bx-search {
+  position: absolute;
+  right: 500px;
+}

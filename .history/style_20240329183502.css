@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Jost;
+}
+.navBar {
+  display: flex;
+  align-items: center;
+}
+.navBar img {
+  margin-left: 90px;
+  padding-top: 20px;
+  padding-right: 190px;
+}
+.logoItems ul {
+  display: flex;
+  list-style: none;
+  padding-top: 20px;
+  gap: 70px;
+}
+.logoItems ul li {
+  font-size: 13px;
+  border: 1px solid red;
+}
+.shop {
+  position: relative;
+}
+.bx-down-arrow {
+  position: absolute;
+  left: 570px;
+}
+.contact {
+  position: relative;
+}
+.bx-search {
+  position: absolute;
+  right: 300px;
+  top: 30px;
+  font-size: 20px;
+}
+.landingPage {
+  display: flex;
+}
+
+.landingPageText {
+  margin-top: 200px;
+  margin-left: 150px;
+}
+.classic {
+  font-size: 30px;
+  font-weight: 600;
+}

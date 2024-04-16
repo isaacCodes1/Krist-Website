@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navBar {
+  display: flex;
+  align-items: center;
+}
+.navBar img {
+  margin-left: 90px;
+  padding-top: 20px;
+  padding-right: 90px;
+}
+.logoItems ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
