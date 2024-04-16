@@ -1,0 +1,1079 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+/* HomePage */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #fff;
+}
+.navBar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.navBar img {
+  margin-left: 90px;
+  padding-top: 20px;
+  padding-right: 190px;
+}
+.logoItems ul {
+  display: flex;
+  list-style: none;
+  padding-top: 20px;
+  gap: 70px;
+}
+.logoItems ul li {
+  font-size: 15px;
+}
+.logoItems ul li:hover {
+  transform: scale(1.05);
+  font-weight: 700;
+}
+.shop {
+  position: relative;
+}
+.bx-down-arrow {
+  position: absolute;
+  left: 9000px;
+}
+.contact {
+  position: relative;
+}
+.bx-search {
+  position: absolute;
+  right: 300px;
+  top: 37px;
+  font-size: 20px;
+}
+.bx-heart {
+  position: absolute;
+  right: 270px;
+  top: 35px;
+  font-size: 20px;
+}
+.bx-cart {
+  position: absolute;
+  right: 240px;
+  top: 35px;
+  font-size: 20px;
+}
+.bx-down-arrow {
+  position: absolute;
+  left: 590px;
+  top: 40px;
+}
+.bx-right-arrow-alt {
+  font-size: 15px;
+}
+.landingPage {
+  display: flex;
+  flex-direction: column;
+  background: rgb(242, 243, 241);
+  border-radius: 8px;
+  height: 620px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  position: relative;
+}
+.sect {
+  margin-bottom: 250px;
+}
+.landingPageText {
+  margin-top: 200px;
+  margin-left: 150px;
+  position: relative;
+}
+.landingPageText h1 {
+  font-size: 42px;
+  font-weight: 900;
+}
+.landingPage h2 {
+  font-size: 85px;
+  position: absolute;
+  top: 500px;
+  left: 30px;
+  color: #e4e2e2;
+}
+.classic {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.landingPageText p {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+button {
+  padding: 12px 28px;
+  background: #000;
+  border: 1px;
+  border-radius: 7px;
+  transition: all 0.42s ease;
+}
+button a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #fff;
+}
+button:hover {
+  color: #000;
+  background: grey;
+}
+.landingPage img {
+  width: 600px;
+  position: absolute;
+  top: 120px;
+  right: 200px;
+  background: transparent;
+  height: 80%;
+}
+.login {
+  padding: 12px 28px;
+  background: #000;
+  border: 1px;
+  border-radius: 7px;
+  margin-left: 800px;
+  position: absolute;
+  top: 25px;
+}
+.login a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #fff;
+}
+.cards {
+  margin-bottom: 70px;
+}
+.cardstext {
+  font-size: 30px;
+  margin-left: 90px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.cardsImg {
+  display: flex;
+  margin-left: 74px;
+}
+.cardsImg img {
+  width: 300px;
+  margin-left: 20px;
+}
+.as1 {
+  position: relative;
+}
+.as2 {
+  position: relative;
+}
+.as3 {
+  position: relative;
+}
+.as4 {
+  position: relative;
+}
+.a1 {
+  font-size: 45px;
+  color: #fff;
+  position: absolute;
+  top: 1000px;
+  left: 150px;
+}
+.a2 {
+  position: absolute;
+  top: 1000px;
+  font-size: 45px;
+  color: #fff;
+  left: 450px;
+}
+.a3 {
+  position: absolute;
+  top: 1000px;
+  color: #fff;
+  font-size: 45px;
+  left: 800px;
+}
+.a4 {
+  position: absolute;
+  top: 1000px;
+  color: #fff;
+  font-size: 45px;
+  left: 1100px;
+}
+.but1 {
+  background: #fff;
+  position: absolute;
+  left: 140px;
+  font-size: 20px;
+  top: 1240px;
+  padding: 10px 50px;
+  transition: 1s ease-in-out;
+}
+.but1:hover {
+  background: #000;
+  color: #fff;
+}
+.but2 {
+  background: #fff;
+  position: absolute;
+  left: 450px;
+  font-size: 20px;
+  top: 1240px;
+  padding: 10px 50px;
+  transition: 1s ease-in-out;
+}
+.but2:hover {
+  background: #000;
+  color: #fff;
+}
+.but3 {
+  background: #fff;
+  position: absolute;
+  left: 780px;
+  font-size: 20px;
+  top: 1240px;
+  padding: 10px 50px;
+  transition: 1s ease-in-out;
+}
+.but3:hover {
+  background: #000;
+  color: #fff;
+}
+.but4 {
+  background: #fff;
+  position: absolute;
+  left: 1100px;
+  font-size: 20px;
+  top: 1245px;
+  padding: 8px 50px;
+  transition: 1s ease-in-out;
+}
+.but4:hover {
+  background: #000;
+  color: #fff;
+}
+.clothes {
+  margin-bottom: 170px;
+}
+.clothesText {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.clothesImg {
+  margin-left: 74px;
+  position: relative;
+}
+.bx-star {
+  position: absolute;
+  left: 270px;
+  top: 10px;
+  border: 1px solid #fff;
+  padding: 5px;
+  border-radius: 10px;
+  background: #fff;
+  font-size: 20px;
+}
+#we {
+  position: absolute;
+  left: 500px;
+  bottom: 100px;
+}
+#we1 {
+  position: absolute;
+  left: 840px;
+  top: 150px;
+}
+#we2 {
+  position: absolute;
+  left: 1140px;
+  top: 150px;
+}
+.clothesImg img {
+  width: 300px;
+  margin-left: 20px;
+}
+.sneakers {
+  position: relative;
+}
+.sneakersText {
+  position: absolute;
+  left: 92px;
+  font-size: 15px;
+}
+.road {
+  font-weight: 700;
+  font-size: 16px;
+}
+.cancel {
+  left: 50px;
+  position: absolute;
+  bottom: 0px;
+}
+.bx-x {
+  position: absolute;
+  bottom: 0px;
+  left: 45px;
+  font-weight: 900;
+  color: red;
+}
+.sneakers1 {
+  position: relative;
+}
+.sneakersText1 {
+  position: absolute;
+  left: 420px;
+  font-size: 15px;
+}
+.road1 {
+  font-weight: 700;
+  font-size: 16px;
+}
+.cancel1 {
+  left: 50px;
+  position: absolute;
+  bottom: 0px;
+}
+.sneakers2 {
+  position: relative;
+}
+.sneakersText2 {
+  position: absolute;
+  left: 740px;
+  font-size: 15px;
+}
+.road2 {
+  font-weight: 700;
+  font-size: 16px;
+}
+.cancel2 {
+  position: absolute;
+  left: 50px;
+  bottom: 0px;
+}
+.sneakers3 {
+  position: relative;
+}
+.sneakersText3 {
+  position: absolute;
+  left: 1070px;
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+.road3 {
+  font-weight: 700;
+  font-size: 16px;
+}
+.cancel3 {
+  position: absolute;
+  left: 50px;
+  bottom: 0px;
+}
+.sneak {
+  margin-bottom: 150px;
+}
+.deal {
+  display: flex;
+  margin-bottom: 150px;
+}
+.deals {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.dealsText {
+  margin-left: 94px;
+  position: relative;
+}
+.dealsImg {
+  margin-left: 170px;
+}
+.timer1 {
+  border: 1px solid #dbdbdb;
+  color: #000;
+  background: #fff;
+  padding: 7px 9px;
+  margin-left: 15px;
+}
+.timer1:hover {
+  background: #fff;
+}
+.timer1h {
+  font-size: 18px;
+  font-weight: 700;
+}
+.pp {
+  margin-bottom: 20px;
+}
+.butto {
+  position: absolute;
+  top: 231px;
+  left: 16px;
+}
+/* NewAccount&Homepage */
+.forms {
+  position: relative;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  position: absolute;
+  bottom: 550px;
+}
+.logo img {
+  margin-left: 90px;
+  margin-top: 100px;
+  padding-right: 190px;
+}
+.image {
+  position: relative;
+}
+.image img {
+  background-size: contain;
+  width: 50%;
+  height: 20%;
+}
+form {
+  position: absolute;
+  left: 800px;
+  bottom: 300px;
+}
+form h1 {
+  font-size: 40px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bolder;
+}
+form p {
+  color: #dbdbdb;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-bottom: 20px;
+}
+.email1 {
+  position: absolute;
+  top: 100px;
+  padding-bottom: 200px;
+}
+.inpute {
+  position: relative;
+  padding-right: 170px;
+  padding-left: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #000;
+  margin-top: 30px;
+}
+.inputp {
+  position: relative;
+  padding-right: 170px;
+  padding-left: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #000;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.inpute::placeholder {
+  font-size: 12px;
+}
+#place::placeholder {
+  font-size: 20px;
+  color: #000;
+}
+.password {
+  position: absolute;
+  top: 155px;
+}
+.check {
+  position: absolute;
+  top: 220px;
+  left: 2px;
+}
+.label1 {
+  margin-left: 20px;
+  position: absolute;
+  top: 220px;
+}
+.forgot {
+  color: #000;
+  position: absolute;
+  left: 210px;
+  font-size: 10px;
+  top: 220px;
+}
+.log {
+  position: absolute;
+  color: #000;
+  background: #fff;
+  border: 1px solid black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  left: 800px;
+  bottom: 250px;
+  padding: 10px 140px;
+  border-radius: 7px;
+  transition: 1s ease-in-out;
+}
+.log:hover {
+  background: #000;
+  color: #fff;
+}
+.lo {
+  position: absolute;
+  color: #000;
+  background: #fff;
+  border: 1px solid black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  left: 800px;
+  bottom: 180px;
+  padding: 10px 110px;
+  border-radius: 7px;
+  transition: 1s ease-in-out;
+}
+.or {
+  position: absolute;
+  left: 800px;
+  bottom: 220px;
+}
+.lo:hover {
+  background: #000;
+  color: #fff;
+}
+.create {
+  font-size: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bolder;
+}
+.new {
+  position: absolute;
+  left: 800px;
+  bottom: 300px;
+}
+.firstname {
+  position: absolute;
+  top: 90px;
+}
+.lastname {
+  position: absolute;
+  top: 148px;
+}
+.email {
+  position: absolute;
+  top: 205px;
+}
+.password {
+  position: absolute;
+  top: 260px;
+}
+.check1 {
+  position: absolute;
+  top: 320px;
+  left: 2px;
+}
+.label2 {
+  margin-left: 20px;
+  position: absolute;
+  top: 318px;
+  color: #dbdbdb;
+  font-weight: normal;
+}
+strong {
+  font-weight: bolder;
+  color: #000;
+}
+.lo1 {
+  position: absolute;
+  color: #000;
+  background: #fff;
+  border: 1px solid black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  left: 800px;
+  bottom: 180px;
+  padding: 10px 130px;
+  border-radius: 7px;
+  transition: 1s ease-in-out;
+}
+.lo1:hover {
+  background: #000;
+  color: #fff;
+}
+/* ForgotPassword */
+.back {
+  color: #000;
+}
+.action {
+  margin-bottom: 80px;
+}
+.fp {
+  font-size: 40px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+#we {
+  position: absolute;
+  top: 170px;
+}
+#wed {
+  position: relative;
+}
+.otp {
+  position: absolute;
+  top: 250px;
+  left: 1px;
+  padding-right: 128px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 7px;
+  padding-left: 128px;
+  border: 1px solid #000;
+  outline: none;
+  transition: 1s ease-in-out;
+  background: #fff;
+}
+.otp:hover {
+  background: #000;
+  color: #fff;
+}
+.link {
+  text-decoration: none;
+}
+.three {
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background: #fff;
+  border: 1px solid #000;
+  margin-left: 5px;
+}
+.three:hover {
+  background: #fff;
+}
+.otp1 {
+  position: absolute;
+  top: 250px;
+  left: 1px;
+  padding-right: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 7px;
+  padding-left: 200px;
+  border: 1px solid #000;
+  outline: none;
+  transition: 1s ease-in-out;
+  background: #fff;
+}
+.otp1:hover {
+  background: #000;
+  color: #fff;
+}
+/* Password change */
+.logs {
+  background-size: contain;
+  width: 80%;
+  margin-left: 150px;
+  position: relative;
+}
+.back1 {
+  position: absolute;
+  text-decoration: none;
+  color: #000;
+  bottom: 400px;
+  left: 700px;
+}
+.insta {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.bx-right-arrow-alt {
+  position: absolute;
+  right: 50px;
+  border: 1px solid #dbdbdb;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 4px;
+}
+.bx-left-arrow-alt {
+  position: absolute;
+  right: 100px;
+  border: 1px solid #dbdbdb;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 4px;
+  background: #000;
+  color: #fff;
+}
+.instaImages {
+  margin-left: 94px;
+  display: flex;
+}
+.instaImages img {
+  width: 290px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+.customer {
+  position: relative;
+  margin-bottom: 300px;
+}
+.customerText {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+.customerText p {
+  margin-left: 120px;
+}
+.cus1 {
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  padding: 20px;
+  position: absolute;
+  left: 120px;
+}
+.cus2 {
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  padding: 20px;
+  position: absolute;
+  left: 720px;
+  margin-right: 200px;
+}
+.cus1 p {
+  margin-bottom: 40px;
+  font-size: 10px;
+}
+.cus2 p {
+  margin-bottom: 40px;
+  font-size: 10px;
+}
+.bxs-star {
+  color: orange;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.cir1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+}
+.alex {
+  position: absolute;
+  left: 80px;
+  bottom: 40px;
+  font-weight: 900;
+}
+.model {
+  position: absolute;
+  left: 80px;
+  color: #dbdbdb;
+}
+.img1 {
+  position: relative;
+  overflow: hidden;
+}
+.bxl-instagram {
+  position: absolute;
+  left: 160px;
+  bottom: 180px;
+  font-size: 30px;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 12px;
+  visibility: hidden;
+}
+.bxl-instagram:hover {
+  background: #000;
+  color: #fff;
+}
+.img1:hover i {
+  visibility: visible;
+  animation: time 1s linear;
+  transition: 1s ease-in-out;
+}
+@keyframes time {
+  0% {
+    left: -160px;
+  }
+  100% {
+    left: 160px;
+  }
+}
+span {
+  text-decoration: line-through;
+  color: #dbdbdb;
+  font-size: 13px;
+}
+.bx-package {
+  font-size: 30px;
+}
+.deliver {
+  position: absolute;
+  top: 4000px;
+  left: 120px;
+}
+.deliver h1 {
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.deliver p {
+  color: #dbdbdb;
+}
+.dollar {
+  position: absolute;
+  top: 4000px;
+  left: 430px;
+}
+.dollar h1 {
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.dollar p {
+  color: #dbdbdb;
+}
+.bx-dollar-circle {
+  font-size: 30px;
+}
+.headphone {
+  position: absolute;
+  top: 4000px;
+  left: 730px;
+}
+.headphone h1 {
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.bx-headphone {
+  font-size: 30px;
+}
+.headphone p {
+  color: #dbdbdb;
+}
+.credit-card {
+  position: absolute;
+  top: 4000px;
+  left: 1050px;
+}
+.bx-credit-card {
+  font-size: 30px;
+}
+.credit-card h1 {
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.credit-card p {
+  color: #dbdbdb;
+}
+.footer {
+  background: #000;
+  padding-bottom: 400px;
+  position: relative;
+  display: flex;
+}
+.logofoot {
+  margin-left: 100px;
+  padding-top: 40px;
+  
+}
+.logofoot img {
+  width: 170px;
+}
+.logofoot i {
+}
+.bx-phone {
+  position: absolute;
+  padding-top: 30px;
+  top: 100px;
+  left: 100px;
+  font-size: 30px;
+  color: #dbdbdb;
+}
+.callNum {
+  color: #dbdbdb;
+  padding-top: 30px;
+  position: absolute;
+  left: 150px;
+  top: 100px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.bx-envelope {
+  position: absolute;
+  padding-top: 30px;
+  top: 150px;
+  left: 100px;
+  color: #dbdbdb;
+  font-size: 30px;
+}
+.mailAdd {
+  color: #dbdbdb;
+  padding-top: 30px;
+  position: absolute;
+  left: 150px;
+  top: 150px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.bx-location-plus {
+  position: absolute;
+  padding-top: 30px;
+  left: 100px;
+  top: 200px;
+  font-size: 30px;
+  color: #dbdbdb;
+}
+.address {
+  padding-top: 30px;
+  position: absolute;
+  color: #dbdbdb;
+  left: 150px;
+  top: 200px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.information{
+  cursor: pointer;
+}
+.information h1 {
+  color: #dbdbdb;
+  position: absolute;
+  left: 550px;
+  padding-top: 45px;
+  font-weight: 700;
+}
+
+.info,
+.info1,
+.info2,
+.info3,
+.info4,
+.info5,
+.info6,
+.info7,
+.info8,
+.info9,
+.info10,
+.info11,
+.info12 {
+  color: #dbdbdb;
+}
+.info {
+  position: absolute;
+  left: 550px;
+  padding-top: 95px;
+}
+.info1 {
+  position: absolute;
+  left: 550px;
+  padding-top: 145px;
+}
+.info2 {
+  position: absolute;
+  left: 550px;
+  padding-top: 195px;
+}
+.info3 {
+  position: absolute;
+  left: 550px;
+  padding-top: 245px;
+}
+.info4 {
+  position: absolute;
+  left: 550px;
+  padding-top: 295px;
+}
+.info10 {
+  position: absolute;
+  color: #dbdbdb;
+  left: 850px;
+  padding-top: 45px;
+  font-weight: 700;
+  font-size: 18px;
+}
+.info5 {
+  position: absolute;
+  padding-top: 95px;
+  left: 850px;
+}
+.info6 {
+  position: absolute;
+  padding-top: 145px;
+  left: 850px;
+}
+.info7 {
+  position: absolute;
+  padding-top: 195px;
+  left: 850px;
+}
+.info8 {
+  position: absolute;
+  padding-top: 245px;
+  left: 850px;
+}
+.info9 {
+  position: absolute;
+  padding-top: 295px;
+  left: 850px;
+}
+.info11 {
+  position: absolute;
+  padding-top: 45px;
+  left: 1050px;
+  font-weight: 700;
+  font-size: 18px;
+}
+.info12 {
+  position: absolute;
+  padding-top: 95px;
+  left: 1050px;
+}
+.inpee{
+  position: absolute;
+  background: transparent; 
+  color: #dbdbdb;
+  border: 1px solid #dbdbdb;
+  top: 200px;
+  left: 1050px;
+  font-size: 15px;
+  outline: none;
+  padding: 20px 70px;
+  border-radius: 7px;
+}
+.bx-envelope-open{
+  position: absolute;
+  left: 1070px;
+  padding-right: 30px;
+  /* border: 1px solid red; */
+  color: #dbdbdb;
+  top: 210px;
+  font-size: 30px;
+}
+.inpee::placeholder{
+  font-size: 15px;
+  color: #dbdbdb;
+}
+.bx-right-arrow-circle{
+  position: absolute;
+  left: 1340px;
+  color: #dbdbdb;
+  top: 215px;
+  font-size: 30px;
+  cursor: pointer;
+  
+}
